@@ -69,7 +69,7 @@ document.getElementById('score-'+activePlayer).textContent=scores[activePlayer];
 document.getElementById('current-'+activePlayer).textContent=0;
 //toglogchiin eeljiig solino
   // toglogch hojson esehiig shalgana
-  if(scores[activePlayer]>=10){
+  if(scores[activePlayer]>=100){
       isNewGame=false;
       document.getElementById('name-'+activePlayer).textContent="WINNER!";
       document.getElementById('current-'+activePlayer).textContent=0;
